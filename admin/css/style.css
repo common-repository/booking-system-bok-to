@@ -1,0 +1,325 @@
+.bokto-but {
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.bokto-but:focus {
+    outline: none !important;
+}
+
+.bokto-save-but, .bokto-add-but {
+    background-color: #1ab394;
+    border-color: #1ab394;
+    color: #FFFFFF;
+}
+
+.bokto-reset-but {
+    color: #8a8a8a;
+}
+
+.bokto-save-but:hover {
+    background-color: #199d83;
+}
+
+.bokto-add-but:hover {
+    background-color: #199d83;
+}
+
+.bokto-banner {
+    padding: 15px; margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.bokto-info-banner {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+
+.bokto-attention-banner {
+    color: #765c3c;
+    background-color: #f0e7d8;
+    border-color: #e9dfc6;
+}
+
+.bokto-booking-info{
+    border: none;
+    font-size: 17px;
+    vertical-align: text-top;
+}
+
+.bokto-appointment-info{
+    display: inline-block;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    color: inherit;
+    padding: 15px 20px 20px 20px;
+    border-color: #e7eaec;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 0;
+    width: 300px;
+}
+
+.bokto-appointment-info p{
+    color: #676a6c;
+    font-size: 16px;
+    font-weight: 750;
+}
+
+.bokto-client-info{
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 127px;
+    background-color: #ffffff;
+    color: inherit;
+    padding: 15px 20px 20px 20px;
+    border-color: #e7eaec;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 0;
+    width: 300px;
+}
+
+.bokto-table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+    background: white;
+    max-width: 70%;
+    width: 70%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+
+.bokto-bookings_info {
+    font-size: 13px;
+    background: white;
+    max-width: 70%;
+    width: 70%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.bokto-booking_number {
+    border: 0;
+    background: white;
+    color: #039;
+}
+
+.bokto-input_service {
+    width: 50%;
+    border-color: #0A246A;
+}
+
+.bokto-come_back_to {
+    border: none;
+    background-color: rgb(241, 241, 241);
+    font-size: 16px;
+    color: #253980;
+}
+
+.bokto-come_back_to:hover {
+    color: #3b0202;
+    text-decoration: underline;
+}
+
+.bokto-come_back_to:focus {
+    outline: none !important;
+}
+
+.bokto-h2 {
+    font-size: 20px;
+    color: #253980;
+}
+
+.bokto-h3 {
+    font-size: 16px;
+    color: #253980;
+}
+
+.bokto-th {
+    font-weight: normal;
+    color: #039;
+    border-bottom: 2px solid #6678b1;
+    padding: 10px 8px;
+}
+
+.bokto-td {
+    color: #669;
+    padding: 9px 8px;
+    transition: .3s linear;
+}
+
+.bokto-tr:hover td {
+    color: #00A8EF;
+}
+
+.bokto-booking_number:hover {
+    color: #3b0202;
+    text-decoration: underline;
+}
+
+.bokto-booking_number:focus {
+    outline: none !important;
+}
+
+.bokto-info-header{
+    color: #66669d;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/*calendar*/
+
+.bokto-calendar{
+    background-color: #ffffff;
+    display: inline-block;
+    padding: 20px;
+    margin-left: 20px;
+    width: 1080px;
+    float: top;
+}
+
+.bokto-calendar-table{
+    background-color: #ffffff;
+    border-collapse: collapse;
+}
+
+.bokto-now-date{
+    color: #0A246A;
+    font-size: 20px;
+}
+
+.bokto-month{
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.bokto-calendar-navigation{
+    position: absolute;
+    left: 940px;
+}
+
+.bokto-button1{
+    width: 40px!important;
+    height: 30px!important;
+    float: left;
+}
+
+.bokto-button2{
+    width: 40px!important;
+    height: 30px!important;
+    margin-left: 0;
+}
+
+.bokto-calendar-navigation input {
+    font-weight: 500;
+    color: #0A246A;
+    height: 30px;
+    width: 60px;
+    background-color: #e0e3ee;
+    border: 1px solid transparent;
+    border-color: #b4bed4;
+    border-radius: 5px;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.bokto-calendar-table{
+    font-size: 14px;
+}
+
+.bokto-weekdays th{
+    color: #6674c6;
+    border: 1px solid #ddd;
+    width: 150px;
+    height: 25%;
+    justify-content: center;
+    align-items: center;
+}
+
+.bokto-days td{
+    border: 1px solid #ddd;
+    text-align: right;
+    vertical-align: top;
+    height: 140px;
+}
+
+.bokto-last-days, .bokto-next-days{
+    color: #c1c2bf;
+}
+
+.bokto-today {
+    background-color: #fff3e9;
+}
+
+.bokto-today:hover{
+    background-color: #fff3e9 !important;
+}
+
+.bokto-days td:hover{
+    background-color: #c1d3ff;
+}
+
+.bokto-appointment{
+    padding: 1px;
+    border-radius: 5px;
+    justify-content: left;
+    cursor: pointer;
+}
+
+.bokto-appointment button{
+    width: 150px;
+    background-color: #2e7ed0;
+    border-radius: 5px;
+    color: #ffffff;
+    border: none;
+    text-align: left;
+}
+
+.bokto-appointment button:focus{
+    outline: none;
+}
+
+.bokto-calendar-appointments-info{
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    float: left;
+    background-color: #ffffff;
+    width: 550px;
+    height: 120px;
+    text-align: center;
+}
+
+.bokto-calendar-appointments-info span{
+    display: block;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 750;
+    color: #676a6c;
+}
+
+.bokto-calendar-appointments-info p{
+    font-size: 22px;
+    font-weight: 700;
+    color: #676a6c;
+}

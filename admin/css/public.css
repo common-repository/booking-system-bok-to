@@ -1,0 +1,7 @@
+.bokto-public-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65px;
+    height: 35px;
+}
